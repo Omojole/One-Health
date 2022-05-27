@@ -1,0 +1,126 @@
+.fa-solid{
+    color: rgb(6, 191, 53);
+}
+span{
+    width: 1px;
+}
+.nav-link{
+    color: black;
+}
+.active{
+    color: rgb(6, 191, 53) ;
+}
+.nav-btn{
+    color: white;
+    background-color: rgb(6, 191, 53) ;
+}
+.Brand{
+    font-weight: 700;
+}
+.one{
+    color: rgb(6, 191, 53) ;
+}
+.has-bg-img{
+    background-image:url(../images/img-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+.container{
+    width: 22vw;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.news{
+    width: 20vw;
+    position:relative ;
+}
+.avatar{
+    width:30px ;
+    height: 30px;
+    border-radius: 16px;
+}
+.time{
+font-size: 12px;
+font-weight:500 ;
+}
+.container .btn{
+    background-color: blue;
+}
+.progress{
+    width: 20%;
+    background-color: rgb(6, 191, 53);
+    height: 1vh;
+}
+.rs-col{
+    width: 25vw;
+    margin-left: vw;
+}
+.info{
+    width: 25vw;
+    height: 25vh;
+}
+.search{
+    width: 20vw;
+    text-align: center;
+    height: 6vh;
+}
+.search-icon{
+    background-color:rgb(6, 191, 53) ;
+    color: white;
+}
+.dot{
+    height: 24px;
+    width: 26px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:40px;
+}
+.categories{
+    background-color: rgba(188, 180, 180, 0.935);
+    height: 5vh;
+    margin-top: 2vh;
+}
+.blog-img{
+    width: 13vw;
+    height: 16vh;
+}
+.div{
+    width:30vw ;
+}
+.super-div{
+    width: 12vw;
+}
+.sub-div{
+    width: 18vw;
+}
+.blog{
+    width:30vw ;
+}
+.tag{
+    border-radius: 20px;
+    padding: 1px 1px;
+    width: 6vw;
+    text-align: center;
+}
+.app{
+    height: 50vh;
+    background-color:rgb(6, 191, 53) ;
+}
+.btn-footer{
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.button{
+    width: 15vw;
+    height: 10vh;
+}
+.footer{
+    height: 50vh;
+}
+.footer >div>ul{
+    list-style-type: none;
+}
