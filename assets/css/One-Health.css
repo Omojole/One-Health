@@ -72,11 +72,11 @@ font-weight:500 ;
     z-index: 1;
     width: 13rem;
     margin-left: 20vw;
-    margin-top: 2vh;
 }
 .main-div{
     position: relative;
-    background-color:rgb(6, 191, 53) ;
+    background-color:#00D9A5;
+    background-image: url(../images/banner-pattern.svg);
 
 }
 .search-icon{
@@ -118,8 +118,8 @@ font-weight:500 ;
     text-align: center;
 }
 .app{
-    height: 50vh;
-    margin-left: 45vw;
+    height: 40.8vh;
+    margin-left: 38vw;
 }
 .btn-footer{
     font-size: 12px;
