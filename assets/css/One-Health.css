@@ -178,7 +178,6 @@ span {
     flex-direction: column;
     row-gap: 15px;
 }
-
 .footer>div>a {
     text-decoration: none;
     color: white;
