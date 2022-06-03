@@ -10,58 +10,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="container-fluid">
-        <div>
-            Apps
-        </div>
-    </div>
-    <div>
-        <div class="d-flex justify-content-around border border-1 py-2">
+    <header  class="container-fluid">
             <div>
-                <i class="fa-solid fa-phone"></i> +00 123 4456 6666
-                <span class=" text-dark mx-3">|</span>
-                <i class="fa-solid fa-envelope"></i> mail@example.com
+                Apps
             </div>
-            <div>
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter mx-3"></i>
-                <i class="fa-brands fa-instagram"></i>
-            </div>
-        </div>
-        <div class="d-flex justify-content-around">
-            <div class="row">
-                <div class="col">
-                    <h4 class="Brand"><span class="one"> One</span>-Health</h4>
+            <div class=" header-info d-flex justify-content-around py-2">
+                <div>
+                    <i class="fa-solid fa-phone"></i> +00 123 4456 6666
+                    <span class=" header-span mx-3">|</span>
+                    <i class="fa-solid fa-envelope"></i> mail@example.com
                 </div>
-                <div class=" col input-group ">
-                    <div class="d-flex">
-                        <i class="fa-solid fa-magnifying-glass input-group-text search-icon"></i>
-                        <input type="text" class="input-group search" placeholder="Enter keyword">
+                <div>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter mx-3"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around">
+                <div class="row">
+                    <div class="col">
+                        <h4 class="Brand"><span class="one"> One</span>-Health</h4>
+                    </div>
+                    <div class=" col input-group ">
+                        <div class="d-flex">
+                            <i class="fa-solid fa-magnifying-glass input-group-text search-icon-1"></i>
+                            <input type="text" class="input-group search" placeholder="Enter keyword">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="d-flex">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Doctors</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link active">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-                <button class="nav-btn border border-0" type="button">Login/Register</button>
+                <div class="d-flex">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="nav-btn border border-0" type="button">Login/Register</button>
+                </div>
             </div>
         </div>
+    </header>
+    <div class="mt-3">
         <div class="has-bg-img">
             <div class=" d-flex justify-content-center align-items-center h-100">
                 <div class="text-white">
@@ -110,7 +112,7 @@
                     <div>
                         <div class="container">
                             <img src="assets/images/img-5.jpeg" alt="img" class="news">
-                            <h5>What is the imoact of eating too mush sugar</h5>
+                            <h5>What is the impact of eating too much sugar</h5>
                             <img src="assets/images/img-8.jfif" alt="img" class="avatar rounded-circle">
                             Roger Adams
                             <i class="fa-solid fa-clock text-dark"></i><span class="time"> 1 week ago</span>
@@ -118,7 +120,7 @@
                         </div>
                         <div class="container">
                             <img src="assets/images/img-3.jpeg" alt="img" class="news">
-                            <h5>The recovery room: <br>News beyond the pandemic</h5>
+                            <h5>The recovery room:News beyond the pandemic</h5>
                             <img src="assets/images/img-9.jfif" alt="img" class="avatar rounded-circle">
                             Roger Adams
                             <i class="fa-solid fa-clock text-dark"></i><span class="time"> 1 week ago</span>
@@ -151,7 +153,7 @@
                 </ul>
             </div>
             <div class="rs-col">
-                <div class="info blog border border-2 d-flex  justify-content-center">
+                <div class="info blog border border-2 d-flex">
                     <div>
                         <h3>Search</h3>
                         <div class="progress">
@@ -161,7 +163,7 @@
                             <div class="d-flex">
                                 <input type="text" class="input-group search"
                                     placeholder="type a keyword and hit enter">
-                                <i class="fa-solid fa-magnifying-glass input-group-text search-icon"></i>
+                                <i class="fa-solid fa-magnifying-glass input-group-text search-icon-2"></i>
                             </div>
                         </div>
                     </div>
@@ -309,7 +311,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer text-light">
+        <footer class="footer text-light">
             <div></div>
             <div>
                 <h5>Company</h5>
@@ -350,9 +352,10 @@
             </div>
             <div>
             </div>
-        </div>
+        </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/fd0f757bae.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

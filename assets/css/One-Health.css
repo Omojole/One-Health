@@ -36,7 +36,7 @@ span {
 }
 
 .container {
-    width: 22vw;
+    width: 24vw;
     margin-bottom: 30px;
     margin-right: 50px;
     position: relative;
@@ -46,7 +46,13 @@ span {
     width: 20vw;
     position: relative;
 }
-
+.header-info{
+    border-top: 1px solid rgb(254, 244, 244);
+    border-bottom: 1px solid rgb(250, 242, 242) ;
+}
+.header-span{
+    color:rgb(225, 221, 221) ;
+}
 .avatar {
     width: 30px;
     height: 30px;
@@ -74,13 +80,7 @@ span {
     height: 1vh;
 }
 
-.rs-col {
-    width: 25vw;
-    margin-left: vw;
-}
-
 .info {
-    width: 25vw;
     height: 25vh;
 }
 
@@ -88,6 +88,7 @@ span {
     width: 20vw;
     text-align: center;
     height: 6vh;
+    border: 1px solid rgb(251, 244, 244) ;
 }
 
 .div-img {
@@ -103,9 +104,15 @@ span {
     background-image: url(../images/banner-pattern.svg);
 }
 
-.search-icon {
-    background-color: rgb(6, 191, 53);
-    color: white;
+.search-icon-1 {
+    color: rgb(6, 191, 53);
+    background-color: white;
+    border: 1px solid  rgb(251, 244, 244) ;
+}
+.search-icon-2{
+    color:white ;
+    background-color: rgb(6, 191, 53) ;
+    border: 1px solid  rgb(251, 244, 244) ;
 }
 
 .dot {
