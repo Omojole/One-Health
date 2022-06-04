@@ -1,7 +1,3 @@
-.fa-solid {
-    color: rgb(6, 191, 53);
-}
-
 span {
     width: 1px;
 }
@@ -9,14 +5,14 @@ span {
 .nav-link {
     color: black;
 }
-
-.active {
+.nav-item .active {
     color: rgb(6, 191, 53);
 }
 
 .nav-btn {
     color: white;
     background-color: rgb(6, 191, 53);
+
 }
 
 .Brand {
@@ -34,11 +30,9 @@ span {
     background-attachment: fixed;
     height: 300px;
 }
-
 .container {
     width: 24vw;
     margin-bottom: 30px;
-    margin-right: 50px;
     position: relative;
 }
 
@@ -80,15 +74,23 @@ span {
     height: 1vh;
 }
 
-.info {
-    height: 25vh;
-}
-
 .search {
     width: 20vw;
     text-align: center;
     height: 6vh;
     border: 1px solid rgb(251, 244, 244) ;
+}
+.right-position-1{
+    margin-right: 9vw;
+}
+.right-position-2{
+    margin-right: 9vw;
+}
+.left-position-1{
+    margin-left:9vw;
+}
+.left-position-2{
+    margin-left: 8vw;
 }
 
 .div-img {
@@ -108,11 +110,18 @@ span {
     color: rgb(6, 191, 53);
     background-color: white;
     border: 1px solid  rgb(251, 244, 244) ;
+    padding-top: 13px;
 }
 .search-icon-2{
     color:white ;
     background-color: rgb(6, 191, 53) ;
     border: 1px solid  rgb(251, 244, 244) ;
+    padding-top: 13px;
+}
+.input-group{
+    text-align: left;
+    width: 17vw;
+    padding-left: 10px;
 }
 
 .dot {
@@ -126,7 +135,8 @@ span {
 .categories {
     background-color: rgba(188, 180, 180, 0.935);
     height: 4vh;
-    margin-top: 2vh;
+    margin-top: 1vh;
+    width: 10vw;
 }
 
 .blog-img {
@@ -147,7 +157,26 @@ span {
 }
 
 .blog {
-    width: 30vw;
+    width: 25vw;
+    border-radius: 10px;
+    border: 3px solid rgb(241, 238, 238);
+    height: 22vh;
+}
+.blog-2{
+    width: 25vw;
+    border-radius: 10px;
+    border: 3px solid rgb(241, 238, 238);
+    height: 30vh;    
+}
+.blog-3{
+    width: 25vw;
+    border-radius: 10px;
+    border: 3px solid rgb(241, 238, 238);
+    height: 40vh;
+}
+.recent-blog{
+    width: 27.5vw;
+    border: 3px solid rgb(241, 238, 238) ;
 }
 
 .tag {
