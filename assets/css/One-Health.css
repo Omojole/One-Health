@@ -1,5 +1,10 @@
-  @media screen and(min-width :600px){
-      .main-content{width: 100%;}
+  @media screen and (max-width :800px){
+      .flex-1{
+        flex-direction: column;
+      }
+      .flex-2{
+        flex-direction: column;
+      }
   }
 span {
   width: 1px;
@@ -122,8 +127,8 @@ span {
   background-image: url(../images/banner-pattern.svg);
 }
 .search-icon-1 {
-  /* color: ; */
   background-color: white;
+  color: #00D9A5;
   border: 1px solid rgb(251, 244, 244);
   padding-top: 13px;
 }
